@@ -1,0 +1,71 @@
+/* *********** */
+/* FUTURA FONT */
+/* *********** */
+
+/* Thin font */
+@font-face {
+  font-family: 'Futura Thin';
+  font-style: normal;
+  /* font-weight: 100; */
+  src: url('../fonts/futura/Futura_Thin.ttf') format('truetype');
+}
+
+/* Regular font */
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  /* font-weight: 200; */
+  src: url('../fonts/futura/Futura_Book.ttf') format('truetype');
+}
+
+/* Medium font */
+@font-face {
+  font-family: 'Futura Medium';
+  font-style: normal;
+  /* font-weight: 400; */
+  src: url('../fonts/futura/Futura_Std_Heavy.ttf') format('truetype');
+}
+
+/* Bold font */
+@font-face {
+  font-family: 'Futura Bold';
+  font-style: normal;
+  /* font-weight: 600; */
+  src: url('../fonts/futura/Futura_Bold.ttf') format('truetype');
+}
+
+/* *********** */
+/* OPTIMA FONT */
+/* *********** */
+
+/* Regular font */
+@font-face {
+  font-family: 'Optima';
+  font-style: normal;
+  /* font-weight: normal; */
+  src: local('Optima'), url('../fonts/optima/Optima.ttf') format('truetype');
+}
+
+/* Medium font */
+@font-face {
+  font-family: 'Optima Medium';
+  font-style: normal;
+  /* font-weight: normal; */
+  src: local('Optima Medium'), url('../fonts/optima/Optima_Medium.ttf') format('truetype');
+}
+
+/* Italic font */
+@font-face {
+  font-family: 'Optima Italic';
+  font-style: italic;
+  /* font-weight: normal; */
+  src: local('Optima Italic'), url('../fonts/optima/Optima_Italic.ttf') format('truetype');
+}
+
+/* Bold font */
+@font-face {
+  font-family: 'Optima Bold';
+  font-style: normal;
+  /* font-weight: normal; */
+  src: local('Optima Bold'), url('../fonts/optima/Optima_Bold.ttf') format('truetype');
+}

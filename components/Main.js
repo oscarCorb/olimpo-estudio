@@ -5,12 +5,12 @@ import Services from 'pages/services';
 
 const Main = () => {
   return (
-    <div>
-      <Projects />
+    <main>
+      {/* <Projects />
       <Services />
       <About />
-      <Contact />
-    </div>
+      <Contact /> */}
+    </main>
   );
 };
 

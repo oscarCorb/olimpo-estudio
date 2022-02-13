@@ -13,12 +13,12 @@ const Layout = ({ title, keywords, description, children }) => {
         <meta name="keywords" content={keywords} />
       </Head>
 
-      <Header></Header>
+      <Header />
 
       {/* Contenido de la página */}
       <Main></Main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

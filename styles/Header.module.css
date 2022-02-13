@@ -1,0 +1,38 @@
+.header_container {
+  text-align: center;
+}
+
+.logo {
+  word-spacing: -0.3ch;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: var(--dark-gray);
+  margin: 15px 0;
+}
+
+.tagline {
+  font-family: 'Optima';
+  font-size: var(--font-xs);
+}
+
+.icons {
+  color: var(--light-gray);
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.nav_container {
+  margin: 15px 0;
+}
+
+.nav_container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_container ul li {
+  padding: 0 10px;
+}

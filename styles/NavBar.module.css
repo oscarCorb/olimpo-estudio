@@ -1,0 +1,19 @@
+.nav_container {
+  margin: 15px 0;
+  font-size: var(--font-lg);
+}
+
+.nav_container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_container ul li {
+  padding: 0 10px;
+}
+
+.nav_link:hover {
+  color: var(--primary);
+  /* text-decoration: underline; */
+}

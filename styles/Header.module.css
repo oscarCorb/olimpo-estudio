@@ -7,7 +7,7 @@
   font-size: 32px;
   letter-spacing: 1px;
   text-transform: lowercase;
-  color: var(--dark-gray);
+  color: var(--dark-grey);
   margin: 15px 0;
 }
 
@@ -17,22 +17,8 @@
 }
 
 .icons {
-  color: var(--light-gray);
+  color: var(--light-grey);
   position: absolute;
   top: 35px;
   right: 0;
-}
-
-.nav_container {
-  margin: 15px 0;
-}
-
-.nav_container ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.nav_container ul li {
-  padding: 0 10px;
 }

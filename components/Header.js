@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavBar from './NavBar';
 
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaHouzz } from 'react-icons/fa';
@@ -26,33 +26,8 @@ const Header = () => {
           </a>
         </span>
       </div>
-
       <h2 className={styles.tagline}>Estudio de interiorismo y reformas en Madrid</h2>
-
-      <nav className={styles.nav_container}>
-        <ul>
-          <li>
-            <Link href="">
-              <a>proyectos</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="">
-              <a>servicios</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="">
-              <a>nosotros</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="">
-              <a>contacto</a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <NavBar />
     </header>
   );
 };

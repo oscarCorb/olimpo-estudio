@@ -1,0 +1,41 @@
+.main_container {
+}
+
+.gallery {
+  /*  */
+  height: 100px;
+  border: solid 1px greenyellow;
+  background-color: antiquewhite;
+}
+
+.load_more_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.vertical_line {
+  width: 1px;
+  margin: 0 auto;
+  height: 50px;
+  background-color: var(--black);
+}
+
+.load_more_container :last-child {
+  background-color: var(--primary);
+}
+
+.load_more_button {
+  display: block;
+  border: none;
+  cursor: pointer;
+  margin: 15px 0;
+  text-transform: uppercase;
+  color: var(--middle-grey);
+  background-color: var(--white);
+}
+
+.load_more_button:hover {
+  color: var(--primary);
+}

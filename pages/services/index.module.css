@@ -1,0 +1,31 @@
+.main_container {
+  background-color: var(--primary-light);
+  text-align: center;
+  padding: 10px;
+}
+.main_container > * {
+  padding: 15px 0;
+}
+
+.section_name {
+  align-self: center;
+  text-transform: lowercase;
+  font-size: var(--font-lg);
+}
+
+.section_title {
+  font-family: 'Optima Medium';
+  text-transform: uppercase;
+  font-size: var(--font-sm);
+  color: var(--primary);
+}
+
+.description {
+  /* font-family: 'Optima Medium'; */
+  font-family: 'Futura Thin';
+  color: --middle-grey;
+}
+
+.description > * {
+  line-height: 150%;
+}

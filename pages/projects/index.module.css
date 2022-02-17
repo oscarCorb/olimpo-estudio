@@ -27,7 +27,7 @@
 }
 
 .load_more_button {
-  display: block;
+  align-self: center; /* para evitar que tengo ancho completo */
   border: none;
   cursor: pointer;
   margin: 15px 0;

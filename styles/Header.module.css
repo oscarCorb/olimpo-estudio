@@ -12,7 +12,8 @@
 }
 
 .tagline {
-  font-family: 'Optima';
+  /* TODO: FALTA USAR FALLBACKS EN LAS TIPOS */
+  font-family: 'Optima Medium';
   font-size: var(--font-xs);
 }
 

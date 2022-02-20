@@ -15,6 +15,7 @@
   margin-top: 20px;
 }
 
+/* TODO: quitar esto y usar el componente SeparatorLine */
 .vertical_line {
   width: 1px;
   margin: 0 auto;

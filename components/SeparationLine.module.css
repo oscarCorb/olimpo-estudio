@@ -1,0 +1,13 @@
+.vertical_line {
+  width: 1px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.black {
+  background-color: var(--black);
+}
